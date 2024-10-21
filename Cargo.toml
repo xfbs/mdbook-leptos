@@ -1,0 +1,23 @@
+[package]
+name = "mdbook-leptos"
+version = "0.2.0"
+edition = "2021"
+authors = ["Patrick Elsen <pelsen@xfbs.net>"]
+license = "MIT"
+description = "Preprocessor for mdbook which renders leptos components."
+repository = "https://github.com/xfbs/mdbook-leptos"
+readme = "README.md"
+
+[dependencies]
+anyhow = "1.0.75"
+camino = { version = "1.1.6", features = ["serde", "serde1"] }
+clap = { version = "4.4.8", features = ["derive"] }
+env_logger = "0.10.1"
+log = "0.4.20"
+mdbook = { version = "0.4.40", default-features = false }
+pulldown-cmark = "0.12.2"
+pulldown-cmark-to-cmark = "18.0.0"
+serde = { version = "1.0.192", features = ["derive"] }
+serde_json = "1.0.108"
+toml = "0.5.11"
+uuid = { version = "1.6.1", features = ["v4", "serde"] }

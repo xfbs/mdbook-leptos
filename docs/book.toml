@@ -1,0 +1,6 @@
+[book]
+authors = ["Patrick Elsen"]
+language = "en"
+multilingual = false
+src = "src"
+title = "mdbook-leptos"
